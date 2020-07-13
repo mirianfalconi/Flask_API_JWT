@@ -3,8 +3,7 @@ import datetime
 import os
 
 SECRET_KEY =    'z6..' #os.environ.get("SECRET_KEY")
-DROPBOX_TOKEN = '...' ##Generated access token
-
+DROPBOX_TOKEN = '..' ##Generated access token
 
 exp = datetime.datetime.utcnow() + datetime.timedelta(minutes=30)
 
